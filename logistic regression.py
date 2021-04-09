@@ -1,3 +1,5 @@
+
+		
 # logistic-regression
 #import the necessary modules/packages
 import pandas as pd 
@@ -26,4 +28,3 @@ for x in range(len(predicted_y)):
 		print('accuracy: {:.2f}'. format(classifier.score(x_test, y_test)))
 		print('accuracy: {:.2f}'. format(classifier.score(x_train, y_train)))
 		print(df.shape)
-		
